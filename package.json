@@ -1,0 +1,15 @@
+{
+  "name": "gemini-invoice-parser",
+  "version": "1.0.0",
+  "description": "使用 Gemini 2.5 辨識出貨單並寫入 Google Sheets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "google-auth-library": "^9.6.0",
+    "googleapis": "^134.0.0"
+  }
+}
